@@ -13,8 +13,8 @@ function Header() {
         <AppBar position="static">
           <Toolbar>
             <IconButton
-              size="large"
-              edge="start"
+              size="small"
+              edge="end"
               color="inherit"
               aria-label="menu"
               sx={{ mr: 2 }}

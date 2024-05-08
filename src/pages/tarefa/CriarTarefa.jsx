@@ -136,7 +136,7 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
                     fontWeight: 400,
                   }} 
                 >
-                  <MenuItem value={'Aguardando'}>Aguardando</MenuItem>
+                  <MenuItem value={'Aguardando'}>Backlog</MenuItem>
                   <MenuItem value={'Em Andamento'}>Em Andamento</MenuItem>
                   <MenuItem value={'Concluída'}>Concluída</MenuItem>
                 </Select>
@@ -144,10 +144,10 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
             </Grid>
             <Grid container spacing={2} pl={2} mt={2}>
               <Grid item xs={1}>
-                <Button size="small" variant="contained" onClick={handleSalvar}>Salvar</Button>
+                <Button size="medium" variant="contained" onClick={handleSalvar}>Salvar</Button>
               </Grid>  
               <Grid item xs={1}>  
-                <Button size="small" variant="outlined" onClick={handleClose}>Cancelar</Button>  
+                <Button size="medium" variant="outlined" onClick={handleClose}>Cancelar</Button>  
               </Grid>
             </Grid>  
           </Grid>
